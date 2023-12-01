@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+.Hallowween {
+	width: 100%;
+	height: 720px;
+	background-image: url('https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/halloween-campaign-homepage-desktop2x.webp');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin-top: 60px;
+	border-bottom: 11px solid #222222;
+}
+
+.Hallowween-header {
+	width: 100%;
+	height: 42px;
+	background-color: #555555;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #eee;
+	letter-spacing: -.01px;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+	.Hallowween-header {
+		height: 60px;
+		font-size: 14px;
+		display: flex;
+		justify-content: center;
+		line-height: 17px;
+		text-align: center;
+	}
+
+	.Hallowween-header span {
+		width: 90%;
+	}
+
+	.text h2 {
+		font-size: 27px !important;
+	}
+
+	.text h3 {
+		font-size: 19px !important;
+	}
+
+	.text a {
+		font-size: 17px !important;
+	}
+
+	.arrow {
+		font-size: 10px!important;
+	}
+}
+
+.Halloween-body {
+	width: 100%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+.text h2 {
+	font-size: 50px;
+	font-weight: 600;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.text h3 {
+	font-size: 27px;
+	font-weight: 100;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.text a {
+	font-size: 21px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.text a:hover {
+	text-decoration: underline;
+}
+
+.arrow {
+	margin-left: 10px;
+	font-size: 12px;
+	font-weight: 600;
+	color: #46C531;
+}
+
+.Lamborghini {
+	width: 100%;
+	height: 720px;
+	background-image: url('https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/razer-blade16-lamborghini-homepage-desktop2x.webp');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-bottom: 11px solid #222222;
+}
+
+.Lamborghini-body {
+	width: 100%;
+	height: 190px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	text-align: center;
+
+}
+
+.Lamborghini-header {
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+}
+
+.button {
+	background-color: #ff9c07;
+	color: #000;
+	font-size: .875rem;
+	font-weight: bold;
+	width: 100px;
+	height: 37px;
+	padding-top: 2px;
+	padding-left: 14px;
+	line-height: 13px;
+	cursor: pointer;
+}
+
+.button span {
+	font-size: 9px;
+	font-weight: 900;
+	font-family: 'Lato', sans-serif;
+}
+
+.sources {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.lamborghini-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.lamborghini-text h3 {
+	font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+	.lamborghini-text h3 {
+		font-size: 17px!important;
+	}
+
+	.lamborghini-text h2 {
+		font-size: 29px!important;
+	}
+
+	.lamborghini-text a {
+		font-size: 16px!important;
+	}
+	.sources {
+		width: 60%;
+		margin-top: 11px!important;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.Lamborghini {
+		width: 100%;
+		height: 550px;
+	}
+}
+
+.Kitsune {
+	width: 100%;
+	height: 700px;
+	background-image: url('https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/razer-kitsune-homepage-large-2x.webp');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-bottom: 11px solid #222222;
+}
+
+.Kitsune-body {
+	width: 100%;
+	height: 190px;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	text-align: center;
+}
+
+.sources {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.Kitsune-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Kitsune-text h2 {
+	font-size: 55px;
+}
+
+.Kitsune-text h3 {
+	font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+	.Kitsune-text h3 {
+		font-size: 17px!important;
+	}
+
+	.Kitsune-text h2 {
+		font-size: 29px!important;
+	}
+
+	.Kitsune a {
+		font-size: 16px!important;
+	}
+	.sources {
+		width: 60%;
+		margin-top: 11px!important;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.Kitsune {
+		width: 100%;
+		height: 520px;
+	}
+
+	.Kitsune-text {
+		margin-top: 100px;
+	}
+}
+
+.Esports {
+	width: 100%;
+	height: 700px;
+	background-image: url('https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/razer-esports-line-homepage-desktop2x-v2.webp');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-bottom: 11px solid #222222;
+}
+
+@media screen and (max-width: 768px) {
+	.Esports {
+		width: 100%;
+		height: 540px!important;
+	}
+
+	.Esports-text h2 {
+		font-size: 30px !important;
+	}
+
+	.Esports-text h3 {
+		font-size: 17px !important;
+	}
+
+	.Esports-text a {
+		font-size: 16px !important;
+	}
+
+	.arrow {
+		font-size: 10px!important;
+	}
+}
+
+.Esports-body {
+	width: 100%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.Esports-text h2 {
+	font-size: 55px;
+}
+
+.Esports-text h3 {
+	font-size: 27px;
+}

@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+.smallcards {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.Mercury {
+	height: 575px;
+	background-image: url('https://assets2.razerzone.com/images/pnx.assets/2fb5601db7a84213129e2f26d31f050f/mercury-blade16-blade18-b-950x580-desktop.webp');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-bottom: 11px solid #222222;
+	border-right: 11px solid #222222;
+
+}
+
+.Mercury-body {
+	width: 100%;
+	height: 220px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+.Mercury-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.smallcard-text h2 {
+	font-size: 37px;
+	font-weight: 900;
+}
+
+.smallcard-text h3 {
+	font-size: 20px;
+	font-weight: 100;
+	letter-spacing: -1px;
+
+}
+
+.smallcard-text a {
+	font-size: 16px;
+}
+
+.smallcard-text a:hover {
+	text-decoration: underline;
+}
+
+.arrow {
+	margin-left: 8px;
+	font-size: 9px;
+	font-weight: 900;
+	color: #2db915;
+}
+
+.sources {
+	width: 51%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Fujin {
+	height: 575px;
+	background-image: url('https://assets2.razerzone.com/images/pnx.assets/bbffede42365ea3ed65d0b13ab080c48/razer-fujin-b-950x580-desktop.webp');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-bottom: 11px solid #222222;
+
+}
+
+.Fujin-body {
+	width: 100%;
+	height: 220px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+.Fujin-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Smurfs {
+	width: 100%;
+	height: 575px;
+	background-image: url('https://assets2.razerzone.com/images/pnx.assets/b4f700532670d0f8bf3609a60d24bf8e/smurfs-b-950x580--desktop.webp');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-bottom: 11px solid #222222;
+	border-right: 11px solid #222222;
+}
+
+.Smurfs-body {
+	width: 100%;
+	height: 190px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	text-align: center;
+
+}
+
+.Smurfs-header {
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+}
+
+.Smurfs-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Blade14 {
+	height: 575px;
+	background-image: url('https://assets2.razerzone.com/images/pnx.assets/ab20c0e7b6887e4438c7bb329c59b288/razer-blade-14-2023-b-950x580-desktop.webp');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-bottom: 11px solid #222222;
+
+}
+
+.Blade14-body {
+	width: 100%;
+	height: 220px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+.Blade14-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Blackwidow {
+	width: 100%;
+	height: 575px;
+	background-image: url('https://assets2.razerzone.com/images/pnx.assets/c5d7d281c387a389b6089421d90c8010/razer-blackwidow-v4-pro-950x580-desktop.webp');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-bottom: 11px solid #222222;
+	border-right: 11px solid #222222;
+}
+
+.Blackwidow-body {
+	width: 100%;
+	height: 190px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	text-align: center;
+
+}
+
+.Blackwidow-header {
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+}
+
+.Blackwidow-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.PS5-combo {
+	height: 575px;
+	background-image: url('https://assets2.razerzone.com/images/pnx.assets/bbffede42365ea3ed65d0b13ab080c48/razerstore-rewards-kitsune-ps5-b-950x580-desktop.webp');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-bottom: 11px solid #222222;
+
+}
+
+.PS5-combo-body {
+	width: 100%;
+	height: 220px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+.PS5-combo-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+	.resp-smallcards {
+		display: flex;
+		flex-direction: column;
+	}
+	.resp-cards {
+		width: 100%!important;
+	}
+
+	.smallcard-text h2 {
+		font-size: 30px;
+	}
+	
+	.smallcard-text h3 {
+		font-size: 17px;
+		letter-spacing: 0px;
+	}
+	
+	.smallcard-text a {
+		font-size: 16px;
+	}
+	
+	.smallcard-text a:hover {
+		text-decoration: underline;
+	}
+	
+	.arrow {
+		margin-left: 8px;
+		font-size: 9px;
+		font-weight: 900;
+		color: #2db915;
+	}
+
+	.sources {
+		width: 60%;
+		margin-top: 11px!important;
+		display: flex;
+		justify-content: space-between;
+	}
+}

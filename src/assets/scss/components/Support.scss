@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+.welcome {
+	width: 100%;
+	height: 450px;
+	background-image: url('https://assets.razerzone.com/support/images/new/home_search_bg.jpg');
+	background-size: cover;
+	background-size: 120%;
+	background-position: center center;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+.welcome-title h3 {
+	color: white;
+	font-size: 37px;
+	font-weight: 100;
+}
+
+.welcome-text p {
+	color: #999;
+	font-size: 21px;
+	font-weight: 400;
+}
+
+.welcome-input input {
+	width: 700px;
+	height: 50px;
+	background-color: transparent;
+	border: 1px solid #999;
+	border-radius: 3px;
+	padding-left: 30px;
+	font-size: 19px;
+}
